@@ -5,3 +5,4 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_executable(CppProject1 main.cpp)
 add_executable(Structur3s Structur3s.cpp)
+add_executable(p0inters p0inters.cpp)

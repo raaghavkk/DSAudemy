@@ -1,4 +1,5 @@
 C:/Users/raagh/CLionProjects/CppProject1/cmake-build-debug/CMakeFiles/CppProject1.dir
 C:/Users/raagh/CLionProjects/CppProject1/cmake-build-debug/CMakeFiles/Structur3s.dir
+C:/Users/raagh/CLionProjects/CppProject1/cmake-build-debug/CMakeFiles/p0inters.dir
 C:/Users/raagh/CLionProjects/CppProject1/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/raagh/CLionProjects/CppProject1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

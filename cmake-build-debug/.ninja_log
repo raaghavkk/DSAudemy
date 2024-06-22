@@ -1,8 +1,6 @@
 # ninja log v6
 8	339	7405283418297096	CMakeFiles/CppProject1.dir/main.cpp.obj	7dad1f1ae4be94fa
 340	430	7405283421622166	CppProject1.exe	c23b88c7463d2d3b
-3	226	7406542951823916	build.ninja	1e80a119ff8df964
-3	506	7406543470261502	CMakeFiles/Structur3s.dir/Structur3s.cpp.obj	f15fe84da54e130b
-507	722	7406543475295013	Structur3s.exe	7836df7f8800c5ee
-5	344	7406543824174049	CMakeFiles/Structur3s.dir/Structur3s.cpp.obj	f15fe84da54e130b
-344	441	7406543827572689	Structur3s.exe	7836df7f8800c5ee
+3	226	7407638511207980	build.ninja	1e80a119ff8df964
+5	347	7407635122289858	CMakeFiles/Structur3s.dir/Structur3s.cpp.obj	f15fe84da54e130b
+348	434	7407635125714362	Structur3s.exe	7836df7f8800c5ee
