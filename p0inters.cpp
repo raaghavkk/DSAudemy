@@ -2,18 +2,28 @@
 #include <stdio.h>
 
 using namespace std;
+
+struct Rectangle {
+    int length;
+    int breadth;
+};
+
 int main () {
 
-    int *p;
-    p = new int [5];  //array of size 5 created in heap (C++ code) (Dynamic allocation)
-    p[0] = 10; p[1] = 15; p[2] = 20; p[3] = 21; p[4] = 31;  //values initialized in array
+    int *p1;
+    char *p2;
+    float *p3;
+    double *p4;
+    struct Rectangle *p5;
 
-    for (int i = 0; i < 5;i++)
-        cout << p[i] <<endl;
-    // p is a pointer which will act like the name of an array
-    // and the array in this case is created inside the stack
+    //printing onto console size of each pointer
+    cout << sizeof(p1) << endl;
+    cout << sizeof(p2) << endl;
+    cout << sizeof(p3) << endl;
+    cout << sizeof(p4) << endl;
+    cout << sizeof(p5) << endl;
 
-    delete [ ] p; //to release the dynamically allocated memory in c++
-    //for C use : free(p); to deallocate the dynamically allocated memory in heap
+    //regardless of data type every pointer is 8 byte
+
     return 0;
 }
