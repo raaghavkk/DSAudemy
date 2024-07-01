@@ -173,6 +173,39 @@ build 3ven0dd.exe: CXX_EXECUTABLE_LINKER__3ven0dd_Debug CMakeFiles/3ven0dd.dir/3
   TARGET_PDB = 3ven0dd.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target referenc1ng
+
+
+#############################################
+# Order-only phony target for referenc1ng
+
+build cmake_object_order_depends_target_referenc1ng: phony || CMakeFiles/referenc1ng.dir
+
+build CMakeFiles/referenc1ng.dir/referenc1ng.cpp.obj: CXX_COMPILER__referenc1ng_unscanned_Debug C$:/Users/raagh/CLionProjects/CppProject1/referenc1ng.cpp || cmake_object_order_depends_target_referenc1ng
+  DEP_FILE = CMakeFiles\referenc1ng.dir\referenc1ng.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\referenc1ng.dir
+  OBJECT_FILE_DIR = CMakeFiles\referenc1ng.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target referenc1ng
+
+
+#############################################
+# Link the executable referenc1ng.exe
+
+build referenc1ng.exe: CXX_EXECUTABLE_LINKER__referenc1ng_Debug CMakeFiles/referenc1ng.dir/referenc1ng.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\referenc1ng.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = referenc1ng.exe
+  TARGET_IMPLIB = libreferenc1ng.dll.a
+  TARGET_PDB = referenc1ng.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target heapmem
 
 
@@ -241,6 +274,8 @@ build heapmem: phony heapmem.exe
 
 build p0inters: phony p0inters.exe
 
+build referenc1ng: phony referenc1ng.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -249,7 +284,7 @@ build p0inters: phony p0inters.exe
 #############################################
 # Folder: C:/Users/raagh/CLionProjects/CppProject1/cmake-build-debug
 
-build all: phony CppProject1.exe Structur3s.exe p0inters.exe 3ven0dd.exe heapmem.exe
+build all: phony CppProject1.exe Structur3s.exe p0inters.exe 3ven0dd.exe referenc1ng.exe heapmem.exe
 
 # =============================================================================
 # Built-in targets
