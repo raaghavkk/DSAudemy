@@ -1,14 +1,18 @@
 # ninja log v6
 8	339	7405283418297096	CMakeFiles/CppProject1.dir/main.cpp.obj	7dad1f1ae4be94fa
 340	430	7405283421622166	CppProject1.exe	c23b88c7463d2d3b
-3	226	7415505961225687	build.ninja	1e80a119ff8df964
+3	226	7416193779082887	build.ninja	1e80a119ff8df964
+6	334	7415513797757010	CMakeFiles/referenc1ng.dir/referenc1ng.cpp.obj	df3123505a54d365
 6	334	7409349622028714	CMakeFiles/p0inters.dir/p0inters.cpp.obj	8f02f3c39c798046
 5	347	7407635122289858	CMakeFiles/Structur3s.dir/Structur3s.cpp.obj	f15fe84da54e130b
 348	434	7407635125714362	Structur3s.exe	7836df7f8800c5ee
 6	376	7409276154603257	CMakeFiles/heapmem.dir/heapmem.cpp.obj	5e2bf934e103a970
 377	473	7409276158301893	heapmem.exe	af39d36b1b176f4a
 335	416	7409349625316357	p0inters.exe	265facc84622dc18
-2	562	7415507194102753	CMakeFiles/referenc1ng.dir/referenc1ng.cpp.obj	df3123505a54d365
-562	801	7415507199703197	referenc1ng.exe	e1e52bdf5bbe378f
-6	334	7415513797757010	CMakeFiles/referenc1ng.dir/referenc1ng.cpp.obj	df3123505a54d365
 335	422	7415513801058513	referenc1ng.exe	e1e52bdf5bbe378f
+4	465	7416193846755266	CMakeFiles/pointertostruct.dir/pointertostruct.cpp.obj	7351c6f3a845fe8b
+465	674	7416193851363171	pointertostruct.exe	db8af827f6be0617
+8	387	7416205238838614	CMakeFiles/pointertostruct.dir/pointertostruct.cpp.obj	7351c6f3a845fe8b
+387	483	7416205242631335	pointertostruct.exe	db8af827f6be0617
+7	342	7416206453808789	CMakeFiles/pointertostruct.dir/pointertostruct.cpp.obj	7351c6f3a845fe8b
+342	425	7416206457165073	pointertostruct.exe	db8af827f6be0617

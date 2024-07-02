@@ -173,6 +173,39 @@ build 3ven0dd.exe: CXX_EXECUTABLE_LINKER__3ven0dd_Debug CMakeFiles/3ven0dd.dir/3
   TARGET_PDB = 3ven0dd.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target pointertostruct
+
+
+#############################################
+# Order-only phony target for pointertostruct
+
+build cmake_object_order_depends_target_pointertostruct: phony || CMakeFiles/pointertostruct.dir
+
+build CMakeFiles/pointertostruct.dir/pointertostruct.cpp.obj: CXX_COMPILER__pointertostruct_unscanned_Debug C$:/Users/raagh/CLionProjects/CppProject1/pointertostruct.cpp || cmake_object_order_depends_target_pointertostruct
+  DEP_FILE = CMakeFiles\pointertostruct.dir\pointertostruct.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\pointertostruct.dir
+  OBJECT_FILE_DIR = CMakeFiles\pointertostruct.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target pointertostruct
+
+
+#############################################
+# Link the executable pointertostruct.exe
+
+build pointertostruct.exe: CXX_EXECUTABLE_LINKER__pointertostruct_Debug CMakeFiles/pointertostruct.dir/pointertostruct.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\pointertostruct.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = pointertostruct.exe
+  TARGET_IMPLIB = libpointertostruct.dll.a
+  TARGET_PDB = pointertostruct.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target referenc1ng
 
 
@@ -274,6 +307,8 @@ build heapmem: phony heapmem.exe
 
 build p0inters: phony p0inters.exe
 
+build pointertostruct: phony pointertostruct.exe
+
 build referenc1ng: phony referenc1ng.exe
 
 # =============================================================================
@@ -284,7 +319,7 @@ build referenc1ng: phony referenc1ng.exe
 #############################################
 # Folder: C:/Users/raagh/CLionProjects/CppProject1/cmake-build-debug
 
-build all: phony CppProject1.exe Structur3s.exe p0inters.exe 3ven0dd.exe referenc1ng.exe heapmem.exe
+build all: phony CppProject1.exe Structur3s.exe p0inters.exe 3ven0dd.exe pointertostruct.exe referenc1ng.exe heapmem.exe
 
 # =============================================================================
 # Built-in targets
